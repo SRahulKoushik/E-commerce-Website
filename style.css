@@ -1,0 +1,33 @@
+.search {
+    border-radius: 15px;
+}
+
+.font {
+    font-weight:490;
+}
+
+.logo {
+    font-size:1.4rem;
+    font-weight:650;
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 550px) {
+    .dropdown1 {
+        display: block;
+    }
+
+    .info {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 551px) {
+    .dropdown1 {
+        display: none;
+    }
+
+}
